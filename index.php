@@ -48,5 +48,16 @@ $faq = [
             </nav>
         </div>
     </header>
+    <main>
+        <div class="faq">
+            <?php
+                foreach ($faq as $key => $element){
+                    foreach ($element as $content){
+                        echo $content;
+                    }
+                }
+            ?>
+        </div>
+    </main>
 </body>
 </html>
